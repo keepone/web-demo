@@ -12,7 +12,7 @@ public class StartUp {
 	        context.start();
 	        UserApi userApi = (UserApi) context.getBean("UserApi"); // ��ȡԶ�̷������
 	        int state = 3;
-			String nickname = "mydd";
+			String nickname = "myddd";
 			User user = new User();
 			user.setState(state);
 			user.setNickname(nickname);
