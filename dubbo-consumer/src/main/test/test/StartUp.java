@@ -10,9 +10,9 @@ public class StartUp {
 			ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
 					new String[] {"classpath:conf/dubbo-consumer.xml" });
 	        context.start();
-	        UserApi userApi = (UserApi) context.getBean("UserApi"); // »ñÈ¡Ô¶³Ì·þÎñ´úÀí
+	        UserApi userApi = (UserApi) context.getBean("UserApi"); // ï¿½ï¿½È¡Ô¶ï¿½Ì·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	        int state = 3;
-			String nickname = "ddmd";
+			String nickname = "my";
 			User user = new User();
 			user.setState(state);
 			user.setNickname(nickname);
